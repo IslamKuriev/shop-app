@@ -1,0 +1,53 @@
+/** Используя данные ситили ты сэкономишь время */
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.product {
+  flex-grow: 0;
+  flex-basis: 33.3333%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.inner {
+  border: 1px solid #f1f1f1;
+  padding: 20px;
+}
+
+.image {
+  text-align: center;
+}
+
+.image img {
+  height: 180px;
+}
+
+.price h4 {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.price strike {
+  color: lightgray;
+}
+
+.name {
+  font-size: 20px;
+  color: gray;
+}
+.btnAdd {
+  margin-top: 7px;
+  padding: 8px 25px;
+  width: 210px;
+  background-color: rgb(11, 99, 250);
+  border-radius: 4px;
+  color: #f1f1f1;
+  border: none;
+  cursor: pointer;
+}
