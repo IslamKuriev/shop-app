@@ -1,3 +1,5 @@
+## Стек: Html/Css/TypeScript/React/React-router/Redux-toolkit/Vite
+
 # Оффлайн интернет-магазин на React
 
 ## Summary
