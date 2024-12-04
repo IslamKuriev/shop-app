@@ -1,8 +1,8 @@
-import { configureStore } from "@reduxjs/toolkit";
-import { ShopReducer } from "../features/shopReducer";
+import { configureStore } from '@reduxjs/toolkit';
+import { ShopSlice } from '../features/shopSlice';
 
 export const store = configureStore({
-  reducer: ShopReducer
+  reducer: ShopSlice,
 });
 
 export type RootState = ReturnType<typeof store.getState>;

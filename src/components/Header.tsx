@@ -1,12 +1,12 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 // import Cart from "./Cart";
-import bagIcon from "bootstrap-icons/icons/bag.svg";
-import styles from "./Cart/cart.module.css"
-import { useSelector } from "react-redux";
-import { RootState } from "../app/store";
+import bagIcon from 'bootstrap-icons/icons/bag.svg';
+import styles from './Cart/cart.module.css';
+import { useSelector } from 'react-redux';
+import { RootState } from '../app/store';
 
 const Header = () => {
-  const cartItems = useSelector((state: RootState) => state.cartItems)
+  const cartItems = useSelector((state: RootState) => state.cartItems);
 
   return (
     <nav className="navbar navbar-light bg-light mb-3">
@@ -16,9 +16,11 @@ const Header = () => {
         </Link>
         {/* <Cart /> */}
         <div className={styles.cartButton}>
-        <Link to={`/cart`}><img src={bagIcon} alt="" /></Link> 
-        <span>{cartItems.length}</span>
-     </div>
+          <Link to={`/cart`}>
+            <img src={bagIcon} alt="" />
+          </Link>
+          <span>{cartItems.length}</span>
+        </div>
       </div>
     </nav>
   );
