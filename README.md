@@ -1,4 +1,7 @@
-## Стек: Html/Css/TypeScript/React/React-router/Redux-toolkit/Vite
+# Стек
+## ~React / React-router
+## ~TypeScript / Redux-toolkit / Vite
+Ссылка на проект: https://shop-app-pi-eight.vercel.app
 
 # Оффлайн интернет-магазин на React
 
